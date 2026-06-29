@@ -78,7 +78,7 @@ while True:
         game_on = False
 
     while game_on:
-        if turn == 'Player 1':
+        if turn == 'player 1':
             # Player1's turn.
             
             display_board(theBoard)
@@ -114,7 +114,7 @@ while True:
                     print('The game is a draw!')
                     break
                 else:
-                    turn = 'Player 1'
+                    turn = 'player 1'
 
     if not replay():
         break
